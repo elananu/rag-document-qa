@@ -4,9 +4,7 @@ import hashlib
 
 import streamlit as st
 from sentence_transformers import SentenceTransformer
-
 from rag import EMBED_MODEL, RagEngine, build_chunks, load_pdf
-
 st.set_page_config(page_title="Document Q&A", page_icon="📄", layout="centered")
 
 
