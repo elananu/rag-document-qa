@@ -12,7 +12,7 @@ from sentence_transformers import SentenceTransformer
 load_dotenv()
 
 EMBED_MODEL = "all-MiniLM-L6-v2"
-DEFAULT_LLM = "llama-3.3-70b-versatile"
+DEFAULT_LLM = "model="openai/gpt-oss-20b""
 CHUNK_SIZE = 800      # characters per chunk
 CHUNK_OVERLAP = 150   # characters shared between neighbouring chunks
 TOP_K = 4             # chunks retrieved per question
